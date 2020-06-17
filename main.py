@@ -17,7 +17,7 @@ import json
 # end telegram bot import
 
 
-bot = telepot.Bot("1299872997:AAGST7kJMFZWyspoNECORAR-je-QxXukt9s")
+bot = telepot.Bot("<>")
 
 with open("data.json", "r") as data:
     remides_list = json.load(data)
